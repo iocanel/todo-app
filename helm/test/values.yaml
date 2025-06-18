@@ -1,0 +1,18 @@
+app:
+  name: todo-app
+  namespace: iocanel
+  virtualMachineName: quarkus-dev
+  virtualMachineNamespace: iocanel
+  cluster:    #
+
+git:
+  branch: main
+  repo: github.com
+  org: iocanel
+  name: todo-app
+
+image:
+  url: quay.io/ikanello/todo-app
+  registry:  # NOT USED
+  organization:  # NOT USED
+  name:  # NOT USED
